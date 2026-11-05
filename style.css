@@ -725,3 +725,35 @@ a, button, img {
     background: #D4AF37;
     color: #000;
 }
+/* MOBILE INTRO SCREEN FIX */
+
+@media (max-width: 768px) {
+    #introScreen {
+        width: 100%;
+        min-height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #introScreen h1 {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0 8px;
+        text-align: center;
+        font-size: clamp(30px, 9vw, 42px);
+        letter-spacing: clamp(2px, 1.5vw, 6px);
+    }
+
+    #introScreen p {
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+}
