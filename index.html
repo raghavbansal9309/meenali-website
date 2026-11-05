@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe With Meenalii</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Images/favicon.jpeg">
+</head>
+<body>
+    <!-- CINEMATIC INTRO -->
+
+<div id="introScreen">
+    <h1>MEENALI Bhagat</h1>
+    <p>WELCOME TO MY WORLD</p>
+</div>
+    <!-- SCROLL PROGRESS BAR -->
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+        <!-- Navigation Bar -->
+     <nav>
+
+     <h2> MEENALI</h2>
+
+     <div class="nav-links">
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#message">Message</a>
+        <a href="#contact">Contact</a>
+     </div>
+
+     </nav>
+
+     <!-- Main Hero Section -->
+      <section class="hero" id="home">
+    
+
+        <div  class="hero-content">
+
+            <img src="images/meenali.jpeg"
+             alt="Meenali's Portrait"
+             class="profile-photo">
+
+            <p class="welcome">
+                WELCOME TO MY WORLD
+            </p>
+
+            <h1> Hey, I'm Meenali</h1>
+
+            <h3>Creator | Vlogger | Music Lover</h3>
+
+            <p class="description">
+                A Creator, A Dreamer and the GOAT Aujla Paglu.
+                Creating memories and capturing moments.
+            </p>
+
+            <button onclick="document.getElementById('gallery').scrollIntoView({behavior: 'smooth'});">
+    Explore My World
+</button>
+
+        </div>
+
+      </section>
+      
+      <!-- About Meenali Section  -->
+<section class="about" id="about">
+    <div class="about-content">
+        <p class="section-tag">Get To Know Me</p>
+        <h2>About Meenali</h2>
+
+        <p>
+            Hey, I'm Meenali, a passionate creator and vlogger who loves to share my experiences with the world. From capturing life's beautiful moments to exploring new places, I strive to inspire and connect with my audience through my content. Join me on this journey as we vibe together and create unforgettable memories!
+        </p>
+
+        <p> 
+            Inspired by music and especially the vibe of Karan Aujla, I loves crating videos, shaing memories and connecting with people.
+        </p>
+
+        <p>
+            This is my little world where creativity meets music and memories.
+        </p>
+
+    </div>
+    <!-- CREATOR STATISTICS -->
+<section class="stats" id="stats">
+
+    <div class="stats-heading">
+        <h2>MY CREATOR JOURNEY</h2>
+        <p>Growing every day ✨</p>
+    </div>
+
+    <div class="stats-container">
+
+        <div class="stat-card">
+            <h3 id="instagramCount">2.5K</h3>
+            <p>Instagram Followers</p>
+        </div>
+
+        <div class="stat-card">
+            <h3 id="youtubeCount">2.17K</h3>
+            <p>YouTube Subscribers</p>
+        </div>
+
+        <div class="stat-card">
+            <h3 id="videoCount">∞</h3>
+            <p>Total Videos</p>
+        </div>
+
+    </div>
+
+</section>
+    <section class="gallery" id="gallery">
+
+    <div class="gallery-heading">
+        <p class="section-tag">MY MEMORIES</p>
+        <h2>My Gallery</h2>
+        <p>A collection of moments, memories and vibes.</p>
+    </div>
+
+    <div class="gallery-grid">
+
+        <img src="Images/photo1.jpeg" alt="Gallery Photo 1">
+        <img src="Images/photo2.jpeg" alt="Gallery Photo 2">
+        <img src="Images/photo3.jpeg" alt="Gallery Photo 3">
+        <img src="Images/photo4.jpeg" alt="Gallery Photo 4">
+        <img src="Images/photo5.jpeg" alt="Gallery Photo 5">
+        <img src="Images/photo6.jpeg" alt="Gallery Photo 6">
+        <img src="Images/photo7.jpeg" alt="Gallery Photo 7">
+        <img src="Images/photo8.jpeg" alt="Gallery Photo 8">
+
+    </div>
+
+</section>
+
+<!-- PHOTO ZOOM BOX -->
+
+<div class="lightbox" id="lightbox">
+    <button class="close-btn" id="closeBtn">&times;</button>
+    <img src="" alt="Zoomed Photo" id="lightboxImg">
+</div>
+
+<!-- SPECIAL MESSAGE SECTION -->
+<section class="special-message" id="message">
+
+    <div class="message-content">
+        <span class="message-star">✦</span>
+
+        <h2>A LITTLE MESSAGE FOR YOU</h2>
+
+        <p>
+            Every great journey starts with a dream.
+            Keep creating, keep inspiring and keep shining.
+            Your story is just getting started!
+        </p>
+
+        <h3>Keep Shining, Meenali! ✨</h3>
+    </div>
+
+</section>
+<!-- SOCIAL MEDIA SECTION -->
+
+<section class="social" id="contact">
+
+    <p class="section-tag">LET'S CONNECT</p>
+
+    <h2>Follow My Journey</h2>
+
+    <p class="social-description">
+        Stay connected and never miss a new update!
+    </p>
+
+<div class="social-buttons">
+
+    <a href="https://www.youtube.com/@imeenalibhgt"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-btn">
+        YouTube
+    </a>
+
+    <a href="https://www.instagram.com/meenaliibhagat/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-btn">
+        Instagram
+    </a>
+
+</div>
+<!-- FOOTER SECTION -->
+
+<footer class="footer">
+
+    <h2>MEENALI</h2>
+
+    <p>Creating memories, one video at a time.</p>
+
+    <p class="copyright">
+        © 2026 Meenali All Rights Reserved.
+    </p>
+
+    <p class="made-with">
+        Made by Raghav Bansal
+    </p>
+
+</footer>
+      <!-- Javascript Connection -->
+       <script src="script.js"></script>
+
+       <!-- BACK TO TOP BUTTON -->
+<button id="backToTop" title="Back to Top">
+    ↑
+</button>
+
+</body>
+</html>
