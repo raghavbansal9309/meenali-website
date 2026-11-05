@@ -757,3 +757,12 @@ a, button, img {
         letter-spacing: 3px;
     }
 }
+#introScreen h1 {
+    width: 100%;
+    text-align: center;
+    font-size: clamp(30px, 8vw, 65px);
+    letter-spacing: 3px;
+    line-height: 1.2;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
